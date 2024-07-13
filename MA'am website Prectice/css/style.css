@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Be Vietnam Pro';
+
+}
+
+:root {
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.3333%;
+    padding: 15px;
+}
+
+.col-2 {
+    width: 16.6666%;
+    padding: 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 15px;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 15px;
+}
+
+.col-5 {
+    width: 41.6666%;
+    padding: 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 15px;
+}
+
+.col-7 {
+    width: 58.3333%;
+    padding: 15px;
+}
+
+.col-8 {
+    width: 66.666%;
+    padding: 15px;
+}
+
+.col-9 {
+    width: 75%;
+    padding: 15px;
+}
+
+.col-10 {
+    width: 83.3333%;
+    padding: 15px;
+}
+
+.col-11 {
+    width: 91.6666%;
+    padding: 15px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 15px;
+}
+
+/* header section */
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 15px 0;
+    background-color: #F9FAFB;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+header .icons i{
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s;
+    text-align: center;
+    line-height: 40px;
+    border-radius:100%;
+
+}
+
+header nav ul li a{
+    padding: 15px;
+    color: #4F46E5;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+header nav ul li a:hover{
+    color: white;
+}
+
+header nav ul li a:hover i{
+   transform: rotate(180deg);
+}
+
+header nav ul li a i{
+    transition: all 0.5s;
+ }

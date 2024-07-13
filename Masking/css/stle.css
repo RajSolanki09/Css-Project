@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width:900px;
+    margin: 50px auto;
+    background-color: aqua;
+    /* clip-path: circle(35% at 50% 50%); */
+    /* clip-path: ellipse(50% 40% at 50% 50%); */
+    clip-path: polygon(20% 50%,50% 30%, 50% 80% ,30% 40% );
+
+}
+img{
+    max-width: 100%;
+}
+.mask2{
+    width: 900px;
+    margin: 50px auto;
+    -webkit-mask-image: url(../img/156420-single-green-leaves-png-free-photo.png);
+    -webkit-mask-size: contain;/* mask-size: cover; */
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+h2{
+    font-size: 300px;
+    text-align: center;
+    /* font-weight: ; */
+    background-image: url(../img/483105.jpg);
+    background-position: center;
+    background-size: cover;
+    background-clip:text ;
+    color: transparent;
+}
+.content{
+    width: 350px;
+    background-color: brown;
+    padding: 25px;
+    margin: 50px auto;
+    border: 10px dotted green;
+    font-size: 25px;
+    /* background-clip:padding-box ; */
+    /* background-clip: content-box; */
+    /* background-clip: text;
+    color: transparent; */
+    background-clip: border-box;
+}
